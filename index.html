@@ -171,7 +171,7 @@
       </ul>
     </article>
   </section>
-  
+
   <section class="section_peoples">
     <article>
       <img src="./assets/kathy.png" alt="kathy">
@@ -397,20 +397,20 @@
     });
   </script>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var toggle = document.getElementById('toggle');
-    var menuLinks = document.querySelectorAll('.menu-list-mobile a');
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var toggle = document.getElementById('toggle');
+      var menuLinks = document.querySelectorAll('.menu-list-mobile a');
 
-    // Agrega un evento de clic a cada enlace del menú móvil
-    menuLinks.forEach(function (link) {
-      link.addEventListener('click', function () {
-        // Oculta el menú al hacer clic en un enlace
-        toggle.checked = false;
+      // Agrega un evento de clic a cada enlace del menú móvil
+      menuLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+          // Oculta el menú al hacer clic en un enlace
+          toggle.checked = false;
+        });
       });
     });
-  });
-</script>
+  </script>
 
 
 </body>
