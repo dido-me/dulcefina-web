@@ -1,6 +1,6 @@
-.slide-content {
+/* .slide-content {
   width: 100vw;
-}
+} */
 
 .swiper {
   width: 100%;
@@ -23,12 +23,4 @@
   object-fit: cover;
 }
 
-.swiper-pagination-bullet {
-  width: 1.5rem !important;
-  height: 1.5rem !important;
-  background: #CF7AB4 !important;
-}
 
-.swiper-pagination-bullet-active {
-  background: #CF7AB4 !important;
-}
