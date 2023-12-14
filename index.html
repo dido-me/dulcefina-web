@@ -166,7 +166,7 @@
         Esfuerzo para crecer.
         <br>
         Excelencia en la calidad de los productos.
-        <br>
+        br
         Satisfacer el gusto de los clientes.
       </ul>
     </article>
@@ -397,7 +397,20 @@
     });
   </script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('toggle');
+    var menuLinks = document.querySelectorAll('.menu-list-mobile a');
 
+    // Agrega un evento de clic a cada enlace del menú móvil
+    menuLinks.forEach(function (link) {
+      link.addEventListener('click', function () {
+        // Oculta el menú al hacer clic en un enlace
+        toggle.checked = false;
+      });
+    });
+  });
+</script>
 
 
 </body>
