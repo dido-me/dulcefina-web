@@ -1,0 +1,40 @@
+.section_tienda {
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  justify-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+}
+
+.section_tienda article img {
+  width: 15rem;
+  object-fit: cover;
+}
+
+.section_tienda article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+}
+
+.section_tienda article h3 {
+  font-family: "Abhaya Libre", serif;
+  font-size: 1.5rem;
+  color: #565656;
+}
+
+.section_tienda article button {
+  background-color: #CF7AB4;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-family: "Abhaya Libre", serif;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}

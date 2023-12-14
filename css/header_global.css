@@ -1,0 +1,40 @@
+.header_global {
+  background: rgb(253, 209, 230);
+  background: linear-gradient(
+    360deg,
+    rgba(253, 209, 230, 1) 0%,
+    rgba(255, 217, 254, 1) 100%
+  );
+  padding: 1rem 0;
+  color: #ffffff;
+}
+
+.header_global-container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 4px dashed #ffffff; 
+  border-bottom: 4px dashed #ffffff; 
+}
+
+.header_global-logo {
+  width: 12rem;
+  height: auto;
+  padding: 1rem 0;
+}
+
+.header_global-hidden {
+  width: 2rem;
+}
+
+.header_global-icons {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 1rem;
+}
+
+.header_global-icons a {
+  color: #ffffff;
+  text-decoration: none;
+}

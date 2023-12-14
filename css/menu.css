@@ -1,0 +1,70 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  gap: 3rem;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #CF7AB4;
+}
+
+.menu-list li {
+  margin-right: 20px;
+}
+
+.menu-hamburger {
+  display: none;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  .menu-list {
+    display: none;
+  }
+
+  .menu-hamburger {
+    display: block;
+  }
+}
+
+
+#toggle {
+  display: none;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.menu-list-mobile {
+  display: none;
+  
+}
+
+.menu-list-mobile ul {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-list-mobile a {
+  text-decoration: none;
+  color: #CF7AB4;
+}
+
+.menu-list-mobile li {
+  margin-right: 20px;
+}
+
+#toggle:checked ~ .menu-list-mobile {
+  display: block;
+}

@@ -1,0 +1,48 @@
+.section_info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+
+.section_info article {
+  flex: 1;
+  border: 3px solid #8d3b73;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  gap: 2rem; /* Reducido el espacio entre elementos en dispositivos pequeños */
+  font-family: "Abhaya Libre", serif;
+}
+
+.section_info article i {
+  font-size: 3rem;
+  color: #8d3b73;
+}
+
+.section_info article h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.section_info article p {
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .section_info {
+    width: 90%;
+  }
+
+  .section_info article {
+    flex-direction: column; /* Cambia la dirección del eje principal para una mejor apariencia en dispositivos pequeños */
+    text-align: center; /* Alinea el contenido al centro en dispositivos más pequeños */
+  }
+}

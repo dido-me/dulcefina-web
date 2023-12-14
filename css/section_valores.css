@@ -1,0 +1,40 @@
+.section_valores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.section_valores article {
+  flex: 1 1 calc(33.33% - 2rem);
+  padding: 1rem;
+  text-align: center;
+  border: 3px solid #cf7ab4;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  font-family: "Abhaya Libre", serif;
+}
+
+.section_valores article h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #cf7ab4;
+}
+
+@media only screen and (max-width: 768px) {
+  .section_valores article {
+    flex: 1 1 calc(50% - 2rem);
+    max-width: calc(50% - 2rem);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section_valores article {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

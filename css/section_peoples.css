@@ -1,0 +1,42 @@
+.section_peoples {
+  display: flex;
+  flex-direction: row; /* Ajuste a fila por defecto */
+  gap: 8rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.section_peoples article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.section_peoples article img {
+  width: calc(10rem + 10vw);
+}
+
+.section_peoples article h3 {
+  font-size: calc(1rem + 1vw);
+  color: #cf7ab4;
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.section_peoples article p {
+  font-size: calc(0.5rem + 1vw);
+  color: #797674;
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .section_peoples {
+    flex-direction: column;
+    align-items: center; /* Centra los elementos en el eje transversal */
+  }
+}

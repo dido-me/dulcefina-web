@@ -1,0 +1,63 @@
+.section_opinions {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Reducir el espacio entre elementos */
+  width: 80%; /* Ajustar el ancho para dispositivos más pequeños */
+  max-width: 800px; /* Establecer un ancho máximo para pantallas más grandes */
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Abhaya Libre", serif;
+}
+
+.section_opinions h2 {
+  margin: 0;
+  color: #cf7ab4;
+  font-size: 2rem; /* Utilizar un tamaño de fuente fijo */
+  margin-top: 2rem; /* Ajustar el margen superior */
+  font-family: "Abril Fatface", serif;
+}
+
+.section_opinions-card {
+  display: flex;
+  flex-direction: column; /* Cambiar la dirección de la tarjeta en pantallas más pequeñas */
+  gap: 2rem; /* Reducir el espacio entre tarjetas */
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #cb69ac;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.section_opinions-card img {
+  width: 8rem; /* Tamaño fijo de la imagen */
+  border-radius: 50%;
+}
+
+.section_opinions-card div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_opinions-card div:nth-child(1) h3,
+.section_opinions-card div:nth-child(1) p {
+  margin: 0;
+}
+
+.section_opinions-card div:nth-child(2) h4 {
+  margin: 0;
+  color: #3f3f3f;
+  font-size: 1rem; /* Tamaño de fuente fijo */
+}
+
+@media only screen and (max-width: 768px) {
+  .section_opinions {
+    width: 90%; /* Ajustar el ancho para dispositivos más pequeños */
+  }
+
+  .section_opinions-card {
+    flex-direction: column; /* Cambiar la dirección de la tarjeta para pantallas más pequeñas */
+  }
+}

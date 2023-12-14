@@ -1,0 +1,52 @@
+.section_nos {
+  display: flex;
+  flex-direction: column; /* Cambiada a columna en dispositivos pequeños */
+  padding: 5rem;
+  gap: 2rem;
+}
+
+.section_nos-right {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.section_nos-right img {
+  width: 100%;
+  height: auto; /* Ajustado para mantener la proporción en imágenes */
+}
+
+.section_nos-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.section_nos-left h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #CF7AB4;
+  margin-bottom: 1rem;
+}
+
+.section_nos-left p {
+  color: #797674;
+  margin: 0;
+  padding: 0;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 2rem;
+}
+
+.section_nos-left-footer p {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .section_nos {
+    padding: 2rem;
+  }
+}
