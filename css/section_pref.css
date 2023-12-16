@@ -5,6 +5,16 @@
   align-items: center;
   gap: 4rem;
   position: relative;
+  background-image: url('../assets/fondo_parallax2.jpg');
+
+  /* Altura fija para la sección */
+  height: 500px; /* Puedes ajustar esto según tus necesidades */
+
+  /* Configuración para el efecto parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallax-img {
